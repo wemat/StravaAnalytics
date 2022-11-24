@@ -12,7 +12,7 @@ https://www.youtube.com/watch?v=sgscChKfGyg&list=PLO6KswO64zVvcRyk0G0MAzh5oKMLb6
 
 2.  paste in YOUR client id in the following link. Authorize the app. 
 http://www.strava.com/oauth/authorize?client_id=CLIENT_ID&redirect_uri=http://localhost&response_type=code&scope=activity:read_all
--->It will look like it didn't work but in the browser bar there will be a new token let's call it CODE. 
+-->It will look like it didn't work but in the browser bar there will be a new token (CODE). Copy that token and paste it in step 3. 
 
 3.exchange authorization code for access & refresh token 
 https://www.strava.com/oauth/token?client_id=31638&client_secret=CLIENT_SECRET&code=CODE&grant_type=authorization_code
