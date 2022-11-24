@@ -1,6 +1,7 @@
 # StravaAnalytics
 
 Strava collects a lot of data and has a great API. Let's use this API and analyze the data with Python. 
+If you want to look at the graphs. Go to analytics--> Open strava_api.ipynb
 
 If you want to reproduce this usecase follow this steps:
 
